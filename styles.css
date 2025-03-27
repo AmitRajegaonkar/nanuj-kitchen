@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
     left: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,6 +56,19 @@ h1, h2, h3, h4 {
     font-size: 1.5rem;
     color: var(--primary-color);
     font-weight: 700;
+    padding: 10px;
+}
+
+.logo a {
+    display: block;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+    object-fit: contain;
 }
 
 .nav-links a {
@@ -562,4 +575,4 @@ h1, h2, h3, h4 {
     .newsletter-form button {
         width: 100%;
     }
-} 
+}
